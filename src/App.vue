@@ -1,5 +1,6 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
+import AppJumbo from './components/AppJumbo.vue'
 import AppFrstSection from './components/AppFrstSection.vue'
 import AppComics from './components/AppComics.vue'
 import AppLinks from './components/AppLinks.vue'
@@ -14,6 +15,7 @@ export default {
 
   components: {
     AppHeader,
+    AppJumbo,
     AppFrstSection,
     AppComics,
     AppLinks,
@@ -25,6 +27,7 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+  <AppJumbo></AppJumbo>
   <AppFrstSection></AppFrstSection>
   <AppComics></AppComics>
   <AppLinks></AppLinks>
